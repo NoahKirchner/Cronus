@@ -11,8 +11,8 @@ var/datum/antagonist/xenos/xenomorphs
 	antag_indicator = "alien"
 	faction_role_text = "Xenomorph Thrall"
 	faction_descriptor = "Hive"
-	faction_welcome = "Your will is ripped away as your humanity merges with the xenomorph overmind. You are now \
-		a thrall to the queen and her brood. Obey their instructions without question. Serve the hive."
+	faction_welcome = "You have eaten your way out of the chest of a lesser being, your former womb. Your loyalty is \
+		Only to the queen and your species as a whole.. Obey their instructions without question and further your species."
 	faction = "xenomorph"
 	faction_indicator = "hudalien"
 

@@ -2270,4 +2270,5 @@
 #include "maps\~mapsystem\maps_unit_testing.dm"
 #include "maps\~unit_tests\unit_testing.dm"
 #include "~code\global_init.dm"
+#include "~code\Learning2code.dm"
 // END_INCLUDE
