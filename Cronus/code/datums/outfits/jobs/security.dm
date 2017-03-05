@@ -10,7 +10,7 @@
 	messenger_bag = /obj/item/weapon/storage/backpack/messenger/sec
 
 /decl/hierarchy/outfit/job/security/hos
-	name = OUTFIT_JOB_NAME("Head of security")
+	name = OUTFIT_JOB_NAME("Protective Services Officer") //Head of Security
 	l_ear = /obj/item/device/radio/headset/heads/hos
 	uniform = /obj/item/clothing/under/rank/head_of_security
 	id_type = /obj/item/weapon/card/id/security/head
@@ -25,7 +25,7 @@
 	pda_type = /obj/item/device/pda/warden
 
 /decl/hierarchy/outfit/job/security/detective
-	name = OUTFIT_JOB_NAME("Detective")
+	name = OUTFIT_JOB_NAME("Forensic Technician") //Detective
 	head = /obj/item/clothing/head/det
 	uniform = /obj/item/clothing/under/det
 	suit = /obj/item/clothing/suit/storage/det_trench
@@ -44,7 +44,7 @@
 	suit = /obj/item/clothing/suit/storage/forensics/blue
 
 /decl/hierarchy/outfit/job/security/officer
-	name = OUTFIT_JOB_NAME("Security Officer")
+	name = OUTFIT_JOB_NAME("Asset Protection")	//Security Officer
 	uniform = /obj/item/clothing/under/rank/security
 	l_pocket = /obj/item/device/flash
 	r_pocket = /obj/item/weapon/handcuffs

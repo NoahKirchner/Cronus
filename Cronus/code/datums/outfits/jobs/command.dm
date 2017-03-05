@@ -1,5 +1,5 @@
 /decl/hierarchy/outfit/job/captain
-	name = OUTFIT_JOB_NAME("Captain")
+	name = OUTFIT_JOB_NAME("Mission Commander")	//Captain
 	head = /obj/item/clothing/head/caphat
 	glasses = /obj/item/clothing/glasses/sunglasses
 	uniform = /obj/item/clothing/under/rank/captain
@@ -26,7 +26,7 @@
 				qdel(medal)
 
 /decl/hierarchy/outfit/job/hop
-	name = OUTFIT_JOB_NAME("Head of Personnel")
+	name = OUTFIT_JOB_NAME("Head of Personnel") //Captain
 	uniform = /obj/item/clothing/under/rank/head_of_personnel
 	l_ear = /obj/item/device/radio/headset/heads/hop
 	shoes = /obj/item/clothing/shoes/brown

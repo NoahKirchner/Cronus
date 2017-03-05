@@ -10,6 +10,7 @@
 #define DEBUG
 // END_PREFERENCES
 // BEGIN_INCLUDE
+#include "test.dmm"
 #include "code\_macros.dm"
 #include "code\global.dm"
 #include "code\hub.dm"
