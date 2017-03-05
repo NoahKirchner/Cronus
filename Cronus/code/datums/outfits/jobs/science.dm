@@ -9,7 +9,7 @@
 	messenger_bag = /obj/item/weapon/storage/backpack/messenger/tox
 
 /decl/hierarchy/outfit/job/science/rd
-	name = OUTFIT_JOB_NAME("Research Director")
+	name = OUTFIT_JOB_NAME("Science Officer") //Research director. Works as CMO + RD
 	l_ear = /obj/item/device/radio/headset/heads/rd
 	uniform = /obj/item/clothing/under/rank/research_director
 	shoes = /obj/item/clothing/shoes/brown
@@ -18,13 +18,13 @@
 	pda_type = /obj/item/device/pda/heads/rd
 
 /decl/hierarchy/outfit/job/science/scientist
-	name = OUTFIT_JOB_NAME("Scientist")
+	name = OUTFIT_JOB_NAME("Researcher") //Scientist. Works in xenoarcheology too.
 	uniform = /obj/item/clothing/under/rank/scientist
 	id_type = /obj/item/weapon/card/id/science
 	suit = /obj/item/clothing/suit/storage/toggle/labcoat/science
 
 /decl/hierarchy/outfit/job/science/xenobiologist
-	name = OUTFIT_JOB_NAME("Xenobiologist")
+	name = OUTFIT_JOB_NAME("Xenobiologist")	//Works with xenobotany also.
 	uniform = /obj/item/clothing/under/rank/scientist
 	id_type = /obj/item/weapon/card/id/science/xenobiologist
 	suit = /obj/item/clothing/suit/storage/toggle/labcoat/science
