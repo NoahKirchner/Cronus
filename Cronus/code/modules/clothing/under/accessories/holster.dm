@@ -1,7 +1,7 @@
 /obj/item/clothing/accessory/holster
 	name = "shoulder holster"
 	desc = "A handgun holster."
-	icon_state = "holster_thigh"
+	icon_state = "holster"
 	slot = "utility"
 	var/obj/item/holstered = null
 
