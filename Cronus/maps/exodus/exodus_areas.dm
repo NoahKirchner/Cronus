@@ -41,7 +41,7 @@
 	name = "\improper Research - RD's Office"
 
 /area/crew_quarters/heads/cmo
-	name = "\improper Command - CMO's Office"
+	name = "\improper MedSci - Science Officer's Office"
 
 // Shuttles
 
@@ -809,6 +809,10 @@
 
 /area/security/lobby
 	name = "\improper Security Lobby"
+	icon_state = "security"
+
+/area/security/lobby
+	name = "\improper Security Dorms"
 	icon_state = "security"
 
 /area/security/brig/processing
