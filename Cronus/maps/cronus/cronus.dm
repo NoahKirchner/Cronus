@@ -1,12 +1,8 @@
 #if !defined(USING_MAP_DATUM)
 
-	#include "torch_areas.dm"
-	#include "torch_elevator.dm"
-	#include "torch_holodecks.dm"
+	#include "cronus_areas.dm"
 	#include "torch_presets.dm"
-	#include "torch_ranks.dm"
-	#include "torch_shuttles.dm"
-	#include "torch_unit_testing.dm"
+	#include "cronus_shuttles.dm"
 
 	#include "items/cards_ids.dm"
 	#include "items/clothing.dm"
