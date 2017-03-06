@@ -2259,6 +2259,7 @@
 #include "interface\skin.dmf"
 #include "maps\_map_include.dm"
 <<<<<<< HEAD
+<<<<<<< HEAD
 #include "maps\cronus\cronus.dm"
 #include "maps\cronus\cronus_areas.dm"
 #include "maps\cronus\cronus_define.dm"
@@ -2266,6 +2267,9 @@
 #include "maps\cronus\cronus_shuttles.dm"
 #include "maps\cronus\cronus-1.dmm"
 =======
+>>>>>>> refs/remotes/origin/UltimateShrekFan-patch-3
+=======
+#include "maps\cronus\ship1.dmm"
 >>>>>>> refs/remotes/origin/UltimateShrekFan-patch-3
 #include "maps\example\example_define.dm"
 #include "maps\overmap_example\overmap_example_define.dm"
