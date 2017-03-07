@@ -101,7 +101,7 @@
 // ===== ERT CONSOLE =====
 /obj/machinery/modular_computer/console/preset/ert
 	console_department = "Crescent"
-	desc = "A stationary computer. This one comes preloaded with various programs used by Nanotrasen response teams."
+	desc = "A stationary computer. This one comes preloaded with various programs used by Weyland-Yutani response teams."
 	_has_printer = 1
 	_has_id_slot = 1
 	_has_aislot = 1

@@ -33,8 +33,20 @@
 	name = "\improper Science Officer's Office"
 	icon_state = "head_quarters"
 
+/area/command/heads/ce
+	name = "\improper Chief Engineer's Office"
+	icon_state = "head_quarters"
+
 
 //MedSci
+
+/area/medsci/common
+	name = "\improper MedSci Hallway"
+	icon_state = "red2"
+
+/area/medsci/common/breakroom
+	name = "\improper MedSci Breakroom"
+	icon_state = "blue2"
 
 /area/medsci/medical/biostorage
 	name = "\improper Secondary Storage"
@@ -73,6 +85,10 @@
 /area/medsci/medical/cryo
 	name = "\improper Cryogenics"
 	icon_state = "medbay2"
+
+/area/medsci/medical/cloning
+	name = "\improper Cloning Lab"
+	icon_state = "medbay3"
 
 /area/medsci/rnd/robotics
 	name = "\improper Robotics Lab"
@@ -131,6 +147,10 @@
 	name = "\improper Cargo Bay - Hangar"
 	icon_state = "quart"
 
+/area/services/cargobay/lobby
+	name = "\improper Cargo Bay - Lobby"
+	icon_state = "quart"
+
 
 
 // Common
@@ -160,7 +180,15 @@
 
 
 
+// Engineering
 
+/area/engineering/engineerdorms
+	name = "\improper Engineering Dormitories"
+	icon_state = "engineering_break"
+
+/area/engineering/breakroom
+	name = "\improper Engineering Break Room"
+	icon_state = "engineering_break"
 
 
 
