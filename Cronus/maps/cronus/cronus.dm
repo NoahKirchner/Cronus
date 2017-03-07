@@ -1,33 +1,9 @@
 #if !defined(USING_MAP_DATUM)
 
 	#include "cronus_areas.dm"
-	#include "torch_presets.dm"
+	#include "cronus_presets.dm"
 	#include "cronus_shuttles.dm"
 
-	#include "items/cards_ids.dm"
-	#include "items/clothing.dm"
-	#include "items/encryption_keys.dm"
-	#include "items/headsets.dm"
-	#include "items/machinery.dm"
-	#include "items/manuals.dm"
-	#include "items/stamps.dm"
-
-	#include "job/access.dm"
-	#include "job/jobs.dm"
-	#include "job/outfits.dm"
-
-	#include "structures/closets.dm"
-	#include "structures/signs.dm"
-	#include "structures/closets/command.dm"
-	#include "structures/closets/engineering.dm"
-	#include "structures/closets/medical.dm"
-	#include "structures/closets/misc.dm"
-	#include "structures/closets/research.dm"
-	#include "structures/closets/security.dm"
-	#include "structures/closets/services.dm"
-	#include "structures/closets/supply.dm"
-
-	#include "loadout/_defines.dm"
 	#include "loadout/loadout_accessories.dm"
 	#include "loadout/loadout_eyes.dm"
 	#include "loadout/loadout_gloves.dm"

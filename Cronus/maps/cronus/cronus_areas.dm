@@ -1,17 +1,175 @@
 // Command
 
-/area/bridge
+/area/command/bridge
 	name = "\improper Bridge"
 	icon_state = "bridge"
 
-/area/bridge/meeting_room
+/area/command/bridge/meeting_room
 	name = "\improper Heads of Staff Meeting Room"
 	icon_state = "bridge"
 	ambience = list()
 	sound_env = MEDIUM_SOFTFLOOR
 
-/area/crew_quarters/heads
+/area/command/heads
 	icon_state = "head_quarters"
+
+/area/command/heads/missioncommander
+	name = "\improper Mission Commander's Office"
+	icon_state = "head_quarters"
+
+/area/command/heads/colonialadmin
+	name = "\improper Colonial Administrator's Office"
+	icon_state = "head_quarters"
+
+/area/command/heads/colonialmarshall
+	name = "\improper Colonial Marshall's Office"
+	icon_state = "head_quarters"
+
+/area/command/heads/servicesofficer
+	name = "\improper Service Officer's Office"
+	icon_state = "head_quarters"
+
+/area/command/heads/scienceofficer
+	name = "\improper Science Officer's Office"
+	icon_state = "head_quarters"
+
+
+//MedSci
+
+/area/medsci/medical/biostorage
+	name = "\improper Secondary Storage"
+	icon_state = "medbay4"
+	ambience = list('sound/ambience/signal.ogg')
+
+/area/medsci/medical/chemistry
+	name = "\improper Chemistry"
+	icon_state = "chem"
+
+/area/medsci/medical/exam_room
+	name = "\improper Exam Room"
+	icon_state = "exam_room"
+
+/area/medsci/medical/morgue
+	name = "\improper Morgue"
+	icon_state = "morgue"
+	ambience = list('sound/ambience/ambimo1.ogg','sound/ambience/ambimo2.ogg','sound/music/main.ogg')
+
+/area/medsci/medical/sleeper
+	name = "\improper Emergency Treatment Centre"
+	icon_state = "exam_room"
+
+/area/medsci/medical/surgery
+	name = "\improper Operating Room"
+	icon_state = "surgery"
+
+/area/medsci/medical/surgery2
+	name = "\improper Operating Room 2"
+	icon_state = "surgery"
+
+/area/medsci/medical/cryo_control
+	name = "\improper Cryogenics Control"
+	icon_state = "medbay"
+
+/area/medsci/medical/cryo
+	name = "\improper Cryogenics"
+	icon_state = "medbay2"
+
+/area/medsci/rnd/robotics
+	name = "\improper Robotics Lab"
+	icon_state = "robotics"
+
+/area/medsci/rnd/lab
+	name = "\improper Research Lab"
+	icon_state = "toxlab"
+
+/area/medsci/rnd/main
+	name = "\improper Research and Development"
+	icon_state = "research"
+/area/medsci/rnd/rndlab
+	name = "\improper R&D Lab"
+	icon_state = "toxmisc"
+
+// Security
+
+/area/marshallservice/lobby
+	name = "\improper Colonial Marshall Service"
+	icon_state = "security"
+
+/area/marshallservice/meetingroom
+	name = "\improper Briefing Room"
+	icon_state = "security"
+
+/area/marshallservice/officerdorms
+	name = "\improper Deputy Marshall's Dorms"
+	icon_state = "security"
+
+/area/marshallservice/armoury
+	name = "\improper Security - Armory"
+	icon_state = "Warden"
+
+/area/marshallservice/detectives_office
+	name = "\improper Colonial Marshall Service - Forensics Office"
+	icon_state = "detective"
+
+/area/marshallservice/brig
+	name = "\improper Jail Area"
+	icon_state = "brig"
+
+/area/marshallservice/brig/solitary
+	name = "\improper Solitary Confinement"
+	icon_state = "brig"
+
+
+
+// Service
+
+/area/services/cargobay/cargooffice
+	name = "\improper Cargo Bay"
+	icon_state = "quartoffice"
+
+/area/services/cargobay/hangar
+	name = "\improper Cargo Bay - Hangar"
+	icon_state = "quart"
+
+
+
+// Common
+/area/common/hallway/starboard
+	name = "\improper Primary Hallway - Starboard"
+	icon_state = "hallS"
+
+/area/common/hallway/port
+	name = "\improper Primary Hallway - Port"
+	icon_state = "hallP"
+
+/area/common/hallway/fore
+	name = "\improper Primary Hallway - Fore"
+	icon_state = "hallF"
+
+/area/common/hallway/aft
+	name = "\improper Primary Hallway - Aft"
+	icon_state = "hallA"
+
+/area/common/washroom
+	name = "\improper Cronus Bathrooms"
+	icon_state = "toilet"
+
+/area/common/dorm
+	name = "\improper Cronus Dormitories"
+	icon_state = "crew_quarters"
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Maintenance
 
@@ -78,84 +236,6 @@
 /area/engineering/storage
 	name = "\improper Engineering Storage"
 	icon_state = "engineering_storage"
-
-/area/medical/biostorage
-	name = "\improper Secondary Storage"
-	icon_state = "medbay4"
-	ambience = list('sound/ambience/signal.ogg')
-
-/area/medical/chemistry
-	name = "\improper Chemistry"
-	icon_state = "chem"
-
-/area/medical/exam_room
-	name = "\improper Exam Room"
-	icon_state = "exam_room"
-
-/area/medical/morgue
-	name = "\improper Morgue"
-	icon_state = "morgue"
-	ambience = list('sound/ambience/ambimo1.ogg','sound/ambience/ambimo2.ogg','sound/music/main.ogg')
-
-/area/medical/sleeper
-	name = "\improper Emergency Treatment Centre"
-	icon_state = "exam_room"
-
-/area/medical/surgery
-	name = "\improper Operating Theatre"
-	icon_state = "surgery"
-
-// Research
-/area/assembly/chargebay
-	name = "\improper Mech Bay"
-	icon_state = "mechbay"
-
-/area/assembly/robotics
-	name = "\improper Robotics Lab"
-	icon_state = "robotics"
-
-/area/rnd/lab
-	name = "\improper Research Lab"
-	icon_state = "toxlab"
-
-/area/rnd/misc_lab
-	name = "\improper Miscellaneous Research"
-	icon_state = "toxmisc"
-
-/area/rnd/research
-	name = "\improper Research and Development"
-	icon_state = "research"
-
-/area/rnd/heads
-	name ="\improper Science Officer Office"
-	icon_state = "scioffice"
-
-// Security
-
-/area/prison/solitary
-	name = "Solitary Confinement"
-	icon_state = "brig"
-
-/area/security/armoury
-	name = "\improper Security - Armory"
-	icon_state = "Warden"
-
-/area/security/checkpoint2
-	name = "\improper Security - Checkpoint"
-	icon_state = "checkpoint1"
-
-/area/security/detectives_office
-	name = "\improper Security - Forensic Office"
-	icon_state = "detective"
-	sound_env = MEDIUM_SOFTFLOOR
-
-/area/security/nuke_storage
-	name = "\improper Vault"
-	icon_state = "nuke_storage"
-
-/area/security/range
-	name = "\improper Security - Firing Range"
-	icon_state = "firingrange"
 
 // Cargo
 /area/quartermaster/office
