@@ -182,11 +182,11 @@
 // SUBTYPE: Regular
 // Your classical blast door, found almost everywhere.
 /obj/machinery/door/blast/regular
-	icon_state_open = "pdoor0"
-	icon_state_opening = "pdoorc0"
-	icon_state_closed = "pdoor1"
-	icon_state_closing = "pdoorc1"
-	icon_state = "pdoor1"
+	icon_state_open = "wyblast_open"
+	icon_state_opening = "wyblast_opening"
+	icon_state_closed = "wyblast_closed"
+	icon_state_closing = "wyblast_closing"
+	icon_state = "wyblast_closed"
 	maxhealth = 600
 	block_air_zones = 1
 

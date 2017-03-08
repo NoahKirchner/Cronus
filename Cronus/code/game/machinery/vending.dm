@@ -945,6 +945,12 @@
 
 	contraband = list(/obj/item/weapon/material/knife/butch = 2)
 
+/obj/machinery/vending/wyfood
+	name = "Weyland-Yutani Food Vendor"
+	desc = ""
+	product_ads = "Weyland-Yutani cares."
+	icon_state = "wyfood"
+
 /obj/machinery/vending/sovietsoda
 	name = "BODA"
 	desc = "An old sweet water vending machine,how did this end up here?"

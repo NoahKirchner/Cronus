@@ -121,7 +121,7 @@
 
 /area/marshallservice/armoury
 	name = "\improper Security - Armory"
-	icon_state = "Warden"
+	icon_state = "armory"
 
 /area/marshallservice/detectives_office
 	name = "\improper Colonial Marshall Service - Forensics Office"
@@ -129,6 +129,13 @@
 
 /area/marshallservice/brig
 	name = "\improper Jail Area"
+	icon_state = "brig"
+/area/marshallservice/brig/cell1
+	name = "\improper Cell 1"
+	icon_state = "brig"
+
+/area/marshallservice/brig/cell2
+	name = "\improper Cell 2"
 	icon_state = "brig"
 
 /area/marshallservice/brig/solitary
@@ -178,7 +185,9 @@
 	name = "\improper Cronus Dormitories"
 	icon_state = "crew_quarters"
 
-
+/area/common/hangar
+	name = "Cronus Hangar"
+	icon_state = "exit"
 
 // Engineering
 
@@ -190,7 +199,13 @@
 	name = "\improper Engineering Break Room"
 	icon_state = "engineering_break"
 
+/area/engineering/tcomms
+	name = "\improper Telecommunications"
+	icon_state = "tcomm"
 
+/area/engineering/powerstorage
+	name = "Cronus Power Storage"
+	icon_state = "law"
 
 
 
@@ -200,6 +215,18 @@
 
 
 // Maintenance
+
+/area/maintenance/tunnels
+	flags = RAD_SHIELDED
+	sound_env = TUNNEL_ENCLOSED
+	name = "\improper Starboard Maintenance Tunnel"
+	icon_state = "smaint"
+
+/area/maintenance/tunnelp
+	flags = RAD_SHIELDED
+	sound_env = TUNNEL_ENCLOSED
+	name = "\improper Port Maintenance Tunnel"
+	icon_state = "pmaint"
 
 /area/maintenance/disposal
 	name = "Waste Disposal"
